@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    /* color:#8983F3; */
+    color: white;
+}
+nav{
+    background-color: #E43A19;
+    padding: 20px;
+}
+nav span{
+    margin-left: 15px;
+    font-size: 25px;
+}
