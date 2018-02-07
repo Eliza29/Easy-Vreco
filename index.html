@@ -18,18 +18,29 @@
         </nav>
     </header>
     <main class="container-fluid">
-        <div class="container"><p>aqui va el mapa</p></div>
+        <div class="container">
+            <p>aqui va el mapa</p>
+        </div>
         <form>
-            <div class="row">
-                <div class="col">
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
                     <label for="inputFrom">Origen</label>
-                    <input type="text" class="form-control" id="inputFrom" placeholder="introduce una ubicación">
-                </div>
-                <div class="col">
-                    <label for="inputTo">Destino</label>
-                    <input type="text" class="form-control" id="inputTo" placeholder="introduce una ubicación">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="inputFrom" placeholder="Ingresa tu destino">
+                    </div>
                 </div>
             </div>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="inputTo">Destino</label>
+                    <input type="text" class="form-control" id="inputTo" placeholder="Ingresa tu destino">
+                </div>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit form</button>
         </form>
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
