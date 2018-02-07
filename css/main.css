@@ -1,13 +1,27 @@
 body{
-    background-color: black;
+    background-color:black;
     /* color:#8983F3; */
     color: white;
+    /* color:#2C2E3E; */
 }
 nav{
-    background-color: #E43A19;
+    background-color: rgb(235, 88, 59);
     padding: 20px;
+    font-family: 'Rammetto One', cursive;
+    color: white;
+    /* box-shadow: 8px 9px 13px -6px rgb(158, 59, 42); */
 }
 nav span{
     margin-left: 15px;
     font-size: 25px;
+}
+img{
+    width:45px;
+    margin-left: 10px;
+}
+ul {
+    display: inline-block;
+}
+.container{
+
 }
