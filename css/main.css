@@ -6,3 +6,15 @@ body{
 #map {
   height: 90vh;
 }
+
+#title, label {
+  color: #24be48;
+}
+
+.margin-top {
+  margin-top: 3rem;
+}
+
+.margin-bottom {
+  margin-bottom: 4rem; 
+}
