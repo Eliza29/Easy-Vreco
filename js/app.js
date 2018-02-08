@@ -28,10 +28,10 @@ function initMap() {
   let directionsService = new google.maps.DirectionsService;
   let directionsDisplay = new google.maps.DirectionsRenderer;
   let map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 7,
+    zoom: 13,
     center: {
-      lat: 41.85, 
-      lng: -87.65,
+      lat: -12.1191427, 
+      lng: -77.0349046,
     }
   });
   directionsDisplay.setMap(map);
