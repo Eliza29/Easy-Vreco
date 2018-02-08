@@ -4,6 +4,7 @@ body{
     color: white;
     /* color:#2C2E3E; */
 }
+
 nav{
     background-color: rgb(235, 88, 59);
     padding: 20px;
@@ -11,17 +12,21 @@ nav{
     color: white;
     /* box-shadow: 8px 9px 13px -6px rgb(158, 59, 42); */
 }
+
 nav span{
     margin-left: 15px;
     font-size: 25px;
 }
+
 img{
     width:45px;
     margin-left: 10px;
 }
+
 ul {
     display: inline-block;
 }
-.container{
 
+#map {
+  height: 90vh;
 }

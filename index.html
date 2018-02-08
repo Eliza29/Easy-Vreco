@@ -15,7 +15,6 @@
 <body>
     <header>
         <nav class="nav">
-
             <div class="row">
                 <div class="col-sm-2">
                     <img src="assets/images/placeholders.svg" alt="cycling">
@@ -23,42 +22,46 @@
                 <div class="col-sm-2">
                     <span>Encuéntrame</span>
                 </div>
-
             </div>
         </nav>
     </header>
     <main class="container-fluid">
-        <div class="container">
-            <p>aqui va el mapa</p>
-        </div>
-        <form>
-            <div class="form-row">
-                <div class="col-md-4 mb-3">
-                    <label for="inputFrom">Origen</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        </div>
-                        <input type="text" class="form-control" id="inputFrom" placeholder="Ingresa tu destino">
-                    </div>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="col-md-4 mb-3">
-                    <label for="inputTo">Destino</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend1">
-                            <span class="input-group-text" id="inputGroupPrepend1">@</span>
-                        </div>
-                        <input type="text" class="form-control" id="inputTo" placeholder="Ingresa tu destino">
-                    </div>
-                </div>
-            </div>
+        <div class="row">
+            <div class="col-7" id="map">
 
-            <button class="btn btn-primary" type="submit">Ver Ruta</button>
-        </form>
+            </div>
+            <form class="col-4">
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="inputFrom">Origen</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="inputFrom" placeholder="Ingresa tu destino">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="inputTo">Destino</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend1">
+                                <span class="input-group-text" id="inputGroupPrepend1">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="inputTo" placeholder="Ingresa tu destino">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit" id="search-road">Ver Ruta</button>
+            </form>
+        </div>
     </main>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVy9sxy4dToErPKrImIhj5wRStDXAVK44&libraries=places"></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVy9sxy4dToErPKrImIhj5wRStDXAVK44&callback=initMap&libraries=places">
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
