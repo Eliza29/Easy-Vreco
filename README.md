@@ -1,4 +1,4 @@
-# INSTA COLLAGE
+# Easy Vreco
 
 ### Challenge Geolocation
 #### Objetivo:
