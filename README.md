@@ -5,10 +5,10 @@
 Crear una página web usando la API Geolocation de HTML5 y Google Maps API.
 La pagina web nos permitirá trazar una ruta en nuestro mapa a partir de los puntos de origin y destino que el usuario desee. Además también cuenta con un autocompletado lo que facilita la búsqueda de algún lugar.  
 
-Vista mobile  
+**Vista mobile**  
 ![Sin titulo](assets/docs/1.png)  
 
-Vista Desktop  
+**Vista Desktop**  
 ![Sin titulo](assets/docs/2.png)
 
 #### Herramientas:
