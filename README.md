@@ -1,7 +1,7 @@
 # Easy Vreco
 Easy Vreco es una página web que usa la API Geolocation de HTML5 y Google Maps API, la cual nos permitirá trazar una ruta en nuestro mapa a partir de los puntos de origen y destino. Además también cuenta con un autocompletado lo que facilita la búsqueda de algún lugar.
 
-![Sin titulo](assets/docs/2.png)
+![Sin titulo](https://user-images.githubusercontent.com/32284212/37947137-fb85d314-314e-11e8-85cb-f35d9838f24e.png)
 
 ## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
