@@ -1,6 +1,5 @@
 # Easy Vreco
 
-### Challenge Geolocation
 Easy Vreco es una página web que usa la API Geolocation de HTML5 y Google Maps API, la cual nos permitirá trazar una ruta en nuestro mapa a partir de los puntos de origen y destino. Además también cuenta con un autocompletado lo que facilita la búsqueda de algún lugar.  
  
 ![Sin titulo](assets/docs/2.png)
