@@ -1,15 +1,11 @@
 # Easy Vreco
 
 ### Challenge Geolocation
-#### Objetivo:
-Crear una página web usando la API Geolocation de HTML5 y Google Maps API.
-La pagina web nos permitirá trazar una ruta en nuestro mapa a partir de los puntos de origin y destino que el usuario desee. Además también cuenta con un autocompletado lo que facilita la búsqueda de algún lugar.  
-
-**Vista mobile**  
-![Sin titulo](assets/docs/1.png)  
-
-**Vista Desktop**  
+Easy Vreco es una página web que usa la API Geolocation de HTML5 y Google Maps API, la cual nos permitirá trazar una ruta en nuestro mapa a partir de los puntos de origen y destino. Además también cuenta con un autocompletado lo que facilita la búsqueda de algún lugar.  
+ 
 ![Sin titulo](assets/docs/2.png)
+
+## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
 #### Herramientas:
 - Bootstrap 4
